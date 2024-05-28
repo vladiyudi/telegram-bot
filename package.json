@@ -3,6 +3,9 @@
     "axios": "^1.7.2",
     "docker": "^1.0.0",
     "dotenv": "^16.4.5",
+    "netlify-cli": "^17.23.8",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0",
     "telegraf": "^4.16.3"
   }
 }
