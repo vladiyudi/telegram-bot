@@ -2,6 +2,14 @@ const { Telegraf } = require('telegraf'); // Import Telegraf library
 const axios = require('axios'); // Import axios for HTTP requests
 require('dotenv').config(); // Load environment variables from .env file
 
+const { Octokit } = require('@octokit/rest');
+const fetch = require('node-fetch'); // Import the fetch polyfill
+
+const octokit = new Octokit({
+  request: { fetch } // Pass the fetch implementation
+});
+
+
 
 const http = require('http');
 

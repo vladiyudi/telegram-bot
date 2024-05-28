@@ -5,8 +5,9 @@
     "dotenv": "^16.4.5",
     "netlify-cli": "^17.23.8",
     "netlify-lambda": "^2.0.16",
+    "node-fetch": "^3.3.2",
     "serverless-http": "^3.2.0",
     "telegraf": "^4.16.3"
   },
-  "start":"node server.js"
+  "start": "node server.js"
 }
